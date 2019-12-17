@@ -1,10 +1,7 @@
+import java.io.*;
 
-        import java.io.FileWriter;
-        import java.io.PrintWriter;
-        import java.lang.management.ManagementFactory;
-        import java.lang.management.ThreadMXBean;
 
-        public class FibRecur {
+public class FibRecur {
 
         static ThreadMXBean bean = ManagementFactory.getThreadMXBean();
 
@@ -87,7 +84,7 @@
         return FibRecur(X - 1) + FibRecur(X - 2); 
 
         }
-        }
+}
 
 
 
